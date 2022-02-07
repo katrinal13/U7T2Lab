@@ -60,6 +60,7 @@ public class CarRunner
         System.out.println("----------------------------------------------");
         System.out.println("TOTAL PASSED TESTS: " + passedTests + " out of 11");
         System.out.println("TOTAL FAILED TESTS: " + failedTests + " out of 11");
+        System.out.println("TESTS ENDED");
     }
 
     public static void testCarLot(Car[] expInv, ArrayList<Car> actInv, int testNo)
